@@ -413,5 +413,115 @@
         "name": "pilates test class",
         "date": "2025-01-03",
         "capacity": 15
+    },
+    {
+        "name": "Pilates",
+        "date": "2025-02-07",
+        "capacity": 10
+    },
+    {
+        "name": "Pilates",
+        "date": "2025-02-08",
+        "capacity": 10
+    },
+    {
+        "name": "Pilates",
+        "date": "2025-02-09",
+        "capacity": 10
+    },
+    {
+        "name": "Pilates",
+        "date": "2025-02-10",
+        "capacity": 10
+    },
+    {
+        "name": "Pilates",
+        "date": "2025-01-01",
+        "capacity": 10
+    },
+    {
+        "name": "Pilates",
+        "date": "2025-01-02",
+        "capacity": 10
+    },
+    {
+        "name": "Pilates",
+        "date": "2025-01-03",
+        "capacity": 10
+    },
+    {
+        "name": "Pilates",
+        "date": "2025-01-04",
+        "capacity": 10
+    },
+    {
+        "name": "Pilates",
+        "date": "2025-01-05",
+        "capacity": 10
+    },
+    {
+        "name": "Pilates",
+        "date": "2025-01-06",
+        "capacity": 10
+    },
+    {
+        "name": "Pilates",
+        "date": "2025-01-07",
+        "capacity": 10
+    },
+    {
+        "name": "Pilates",
+        "date": "2025-01-08",
+        "capacity": 10
+    },
+    {
+        "name": "Pilates",
+        "date": "2025-01-09",
+        "capacity": 10
+    },
+    {
+        "name": "Pilates",
+        "date": "2025-01-10",
+        "capacity": 10
+    },
+    {
+        "name": "pilates test",
+        "date": "2025-01-01",
+        "capacity": 20
+    },
+    {
+        "name": "pilates test",
+        "date": "2025-01-02",
+        "capacity": 20
+    },
+    {
+        "name": "pilates test",
+        "date": "2025-01-03",
+        "capacity": 20
+    },
+    {
+        "name": "pilates test",
+        "date": "2025-01-04",
+        "capacity": 20
+    },
+    {
+        "name": "pilates test",
+        "date": "2025-01-05",
+        "capacity": 20
+    },
+    {
+        "name": "pilates test class",
+        "date": "2025-01-01",
+        "capacity": 15
+    },
+    {
+        "name": "pilates test class",
+        "date": "2025-01-02",
+        "capacity": 15
+    },
+    {
+        "name": "pilates test class",
+        "date": "2025-01-03",
+        "capacity": 15
     }
 ]

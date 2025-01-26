@@ -20,7 +20,7 @@ class ErrorHandler
                 $response->getBody()->write(json_encode([
                     'error' => true,
                     'message' => 'This endpoint only accepts specific HTTP methods. Please refer to the API documentation.',
-                    'documentation_url' => 'http://yourapi.com/docs'
+                    'documentation_url' => 'refer readme.md for documentation'
                 ]));
                 return $response->withStatus(405)->withHeader('Content-Type', 'application/json');
             }
@@ -34,7 +34,7 @@ class ErrorHandler
                 $response->getBody()->write(json_encode([
                     'error' => true,
                     'message' => 'The requested endpoint was not found. Please check the URL or refer to the API documentation.',
-                    'documentation_url' => 'http://yourapi.com/docs'
+                    'documentation_url' => 'refer readme.md for documentation'
                 ]));
                 return $response->withStatus(404)->withHeader('Content-Type', 'application/json');
             }
