@@ -15,33 +15,32 @@ glofox/
 │
 ├── app/
 │   ├── Controllers/
-│   │   ├── BookingController.php           # Booking controller handling the HTTP requests
-│   │   └── ClassController.php            # Controller for class-related operations
+│   │   ├── BookingController.php          # Handles HTTP requests for booking operations
+│   │   └── ClassController.php            # Handles HTTP requests for class-related operations
 │   ├── Services/
-│   │   ├── BookingService.php             # Business logic for booking operations
-│   │   └── ClassService.php               # Business logic for class operations
+│   │   ├── BookingService.php             # Contains business logic for booking operations
+│   │   └── ClassService.php               # Contains business logic for class-related operations
 │   ├── Utils/
-│   │   └── FileStorage.php                # Utility class for file storage (read/write JSON)
+│   │   └── FileStorage.php                # Utility class for handling file storage (read/write JSON)
 │   ├── Storage/
-│   │   ├── booking_data.json              # JSON file storing the bookings
-│   │   └── class_data.json                # JSON file storing the class data
-│   └── index.php                            # entry point for the application (PHP server)
-│                                               
+│   │   ├── booking_data.json              # JSON file storing booking data
+│   │   └── class_data.json                # JSON file storing class data
+│   └── index.php                          # Entry point for the application (PHP server)
 │
 ├── tests/
 │   ├── Controllers/
-│   │   ├── BookingControllerTest.php      # PHPUnit test for BookingController
-│   │   └── ClassControllerTest.php        # PHPUnit test for ClassController
+│   │   ├── BookingControllerTest.php      # PHPUnit tests for BookingController
+│   │   └── ClassControllerTest.php        # PHPUnit tests for ClassController
 │   ├── Services/
-│   │   ├── BookingServiceTest.php         # PHPUnit test for BookingService
-│   │   └── ClassServiceTest.php           # PHPUnit test for ClassService
+│   │   ├── BookingServiceTest.php         # PHPUnit tests for BookingService
+│   │   └── ClassServiceTest.php           # PHPUnit tests for ClassService
 │   ├── Utils/
-│   │   └── FileStorageTest.php            # PHPUnit test for FileStorage utility
-│   
+│   │   └── FileStorageTest.php            # PHPUnit tests for FileStorage utility
 │
-├── composer.json                          # Composer configuration file
-├── composer.lock                          # Lock file for managing dependencies
-└── README.md                              # Project setup and documentation
+├── composer.json                          # Composer configuration for managing dependencies
+├── composer.lock                          # Lock file ensuring dependency consistency
+└── README.md                              # Project setup, usage, and documentation
+
 
 
 

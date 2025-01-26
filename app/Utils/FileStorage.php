@@ -32,22 +32,6 @@ class FileStorage
         $this->write($mergedData);
     }
 
-    // public static function load()
-    // {
-    //     if (file_exists(self::$filePath)) {
-    //         $data = file_get_contents(self::$filePath);
-    //         return json_decode($data, true);
-    //     }
-    //     return [];
-    // }
-
-    // public static function save($data)
-    // {
-    //     // Convert the classes array to a JSON string
-    //     $data = json_encode($data, JSON_PRETTY_PRINT);
-
-    //     // Save the JSON data to the file
-    //     file_put_contents(self::$filePath, $data);
-    // }
+    
 }
 
