@@ -11,6 +11,8 @@ This project provides an API for managing bookings for a platform such as gyms, 
 
 # Project Structure
 
+```bash
+
 glofox/
 │
 ├── app/
@@ -41,8 +43,7 @@ glofox/
 ├── composer.lock                          # Lock file ensuring dependency consistency
 └── README.md                              # Project setup, usage, and documentation
 
-
-
+  ```
 
 
 ## Set up instrcutions
