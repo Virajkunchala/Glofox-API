@@ -1,4 +1,4 @@
-# Booking API
+# GLOFOX Classes Booking API
 
 This project provides an API for managing bookings for a platform such as gyms, studios, and boutiques. It allows users to make bookings based on available classes, and it validates inputs such as class date and required fields.
 
