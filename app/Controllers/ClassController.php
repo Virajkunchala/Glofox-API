@@ -27,6 +27,13 @@ class ClassController
         //Get the data from the request
         $data=$request->getParsedBody();
 
+        if (empty($data) || !is_array($data)) {
+            $response->getBody()->write(json_encode([
+                'error' => 'Invalid or missing request body. Payload must be in valid JSON format.'
+            ]));            
+            return $response->withStatus(400)->withHeader('Content-Type', 'application/json');
+        }
+
         $validation_errors = $this->classService->validateClassData($data);
 
         if (!empty($validation_errors)) {
